@@ -5,22 +5,21 @@
  */
 package codigo;
 
-/**
- *
- * @author xp
- */
 import java.io.File;
 import java.io.IOException;
 import java.io.RandomAccessFile;
 
-
+/**
+ *
+ * @author Gonzalo
+ */
 public class Registro {
 
-   
+    //Declararcion de variables
     protected char nombre[];
     protected float parcial1, parcial2, talleres, proyecto;
 
-   
+    //Constructores
     public Registro() {
     }
 
